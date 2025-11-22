@@ -1,0 +1,12 @@
+# Inherit all settings from the primary config file
+
+# ----------------------------------------
+# 1. Theme Configuration (For Local Use ONLY)
+# ----------------------------------------
+theme: just-the-docs
+
+# Optional: You can list your local plugins here, but they should be defined in the Gemfile
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  
