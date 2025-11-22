@@ -1,0 +1,43 @@
+{% comment %}
+  Language Switcher Logic: 
+  1. Define the current page's language ('current_lang') and its unique reference ('ref').
+  2. Find the translation link ('translated_page') by searching all pages that match the 'ref' 
+     BUT have a different language.
+{% endcomment %}
+
+{% assign current_lang = page.lang | default: site.default_lang %}
+{% assign current_ref = page.ref %}
+
+<div class="lang-switcher">
+  {% for lang in site.languages %}
+    {% assign translated_page = site.pages | where: "lang", lang | where: "ref", current_ref | first %}
+
+    {% if translated_page %}
+      {% if lang == current_lang %}
+        <span class="current-lang-item" aria-current="true">
+          {{ lang | upcase }} 
+        </span>
+      {% else %}
+        <a href="{{ translated_page.url | relative_url }}" class="lang-item">
+          {{ lang | upcase }}
+        </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+.lang-switcher { 
+  display: inline-block; 
+  padding: 0 10px; 
+  font-size: 0.8em; 
+}
+.current-lang-item { 
+  font-weight: bold; 
+  color: #007bff; /* Highlight current language */
+}
+.lang-item {
+  margin-left: 5px;
+  text-decoration: none;
+}
+</style>

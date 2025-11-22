@@ -1,0 +1,18 @@
+/* This overrides the theme because it is loaded later */
+body {
+    background-color: #ffffff; /* White */
+}
+
+/* You can also target specific elements */
+.site-header {
+    background-color: #007bff; /* Primary Blue */
+}
+
+
+:root {
+  /* Theme Primary Color (used for links, active sidebar items, etc.) */
+  --color-accent-rgb: 255, 165, 0; /* Example: Orange */
+
+  /* Theme Header Background */
+  --color-header-bg: #1a1a1a; /* Example: Dark Gray */
+}
