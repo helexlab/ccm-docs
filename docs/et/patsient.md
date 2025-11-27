@@ -10,12 +10,13 @@ permalink: /et/kasutusjuhendid/patsient/
 ## Patsientide nimekiri
 1. Sisestatud patsiente näeb, kui vasakult ülevalt menüüst valida Haldus -> **Patsiendid**.
 2. Avaneb patsientide nimekiri tabeli kujul.
+![Screenshot]({{ site.baseurl }}/assets/images/patsiendi_nimekiri.png)
 3. Patsiendid on kuvatud lehekülgede kaupa.
 4. Vaikimisi kuvatakse kuni 20 patsienti ühel kuval. Seda valikut saab muuta, vajutades tabeli allääres olevale numbriväljale.
 
 5. Tabeli tulbad:
 - **Nimi** - Hüperlingina patsiendi "Perekonnanimi, Eesnimi". Peale vajutades viiakse kasutaja patsiendi andmete muutmise kuvale
-- **Identifikaator** - Kõigepealt kuvatakse süsteemi kood "|" identifikaatori sisestatud väärtus
+- **Identifikaator** - Kõigepealt kuvatakse süsteemi kood ja siis identifikaatori sisestatud väärtus
 - **Sugu** - kui valitud, siis kuvatakse patsiendi sugu
 
 6. Tabeli kohal paremal üleval nurgas on kuvatud filtri ikoon, millele vajutades avaneb filter võimalustega kitsendada otsingut nimekirjas:
@@ -31,6 +32,7 @@ permalink: /et/kasutusjuhendid/patsient/
 1. Uue patsiendi sisestamiseks süsteemi tuleb vajutada paremal tabeli kohal olevat **"+Lisa"** nuppu
 - See nupp on kuvatud kasutajatele, kellel on "practitioneri" ehk kõige tavalisem "kasutaja" roll
 2. Avaneb Patsiendi andmete vaade erinevate andmeplokkidega:
+![Screenshot]({{ site.baseurl }}/assets/images/patsiendi_andmed.png)
 - Esimene plokk on **ID** sisestamiseks. Mugavaks kasutuseks on süsteemi valikuteks seadistatud "Eesti isikukood" ja "Vene passi number"
 -- **Väärtuse** lahtrisse tuleb sisestada siis kas antud isikukood või passi number
 -- **Kehtib kuni** väli tähendab dokumendi kehtivuse kuupäeva, kui seda on tarvis lisaks üles märkida
