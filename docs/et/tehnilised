@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Tehnilised juhendid"
+parent: kasutusjuhendid
+nav_order: 5
+has_children: true
+permalink: /et/kasutusjuhendid/tehniline/
+---
+# Tehnilised juhendid
+
+Selle peatüki all on kirjeldatud süsteemsed tehnilised juhendid.

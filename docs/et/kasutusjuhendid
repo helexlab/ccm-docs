@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Kasutusjuhendid"
-nav_order: 3
+nav_order: 1
 has_children: true
 permalink: /et/kasutusjuhendid/
 ---
 
-# Pealkiri
+# Hoolduskoordinatsiooni süsteemi kasutusjuhendid
 
-Sisu
+Selle peatüki alt on võimalik leida nii tehnilisi-, haldavaid, kui kasutajate juhendeid süsteemi kiiremaks tundmaõppimiseks ja navigeerimiseks.

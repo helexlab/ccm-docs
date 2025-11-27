@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Kasutajate lood"
+parent: Kasutusjuhendid
+nav_order: 2
+has_children: true
+permalink: /et/kasutusjuhendid/kasutuslood/
+---
+# Kasutuslood
+
+Selle peatüki all on kirjeldatud süsteemsed kasutuslood ja -vood.

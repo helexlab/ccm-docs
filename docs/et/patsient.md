@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Patsiendid"
-parent: Kasutusjuhendid
-nav_order: 2
-permalink: /et/kasutusjuhendid/patsient/
+parent: kasutuslood
+nav_order: 3
+permalink: /et/kasutusjuhendid/kasutuslood/patsient/
 ---
 # Patsiendi/abivajaja lisamine süsteemi
 
@@ -30,7 +30,7 @@ permalink: /et/kasutusjuhendid/patsient/
 ## Uue patsiendi lisamine
 
 1. Uue patsiendi sisestamiseks süsteemi tuleb vajutada paremal tabeli kohal olevat **"+Lisa"** nuppu
-- See nupp on kuvatud kasutajatele, kellel on "practitioneri" ehk kõige tavalisem "kasutaja" roll
+- See nupp on kuvatud kasutajatele, kellel on "practitioner" ehk kõige tavalisem "kasutaja" roll
 2. Avaneb Patsiendi andmete vaade erinevate andmeplokkidega:
 ![Screenshot]({{ site.baseurl }}/assets/images/patsiendi_andmed.png)
 - Esimene plokk on **ID** sisestamiseks. Mugavaks kasutuseks on süsteemi valikuteks seadistatud "Eesti isikukood" ja "Vene passi number"
@@ -47,4 +47,4 @@ permalink: /et/kasutusjuhendid/patsient/
 -- **Suhtluskanal** ehk mobiilside
 -- **Aadress**
 
-3. Andmete salvestamiseks tuleb üleval paremal nurgas vajutada nuppu "Salvesta".
+3. Andmete salvestamiseks tuleb üleval paremal nurgas vajutada nuppu **"Salvesta"**.
