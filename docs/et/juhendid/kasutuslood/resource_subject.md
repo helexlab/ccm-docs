@@ -66,28 +66,28 @@ Kui kõik vajalikud väljad on täidetud, saab abivajaja registreerida, vajutade
 - Selle all on erinevad vaated/vahelehed
 3. Programmi vaates on erinevad plokid.
 4. Esimene plokk kirjeldab üldist informatsiooni valitud programmi kohta ning selle abivajaja praeguse kehtiva oleku kohta antud programmis
-- Loe rohkem: [Oleku-mootor](/docs/et/juhendid/tehnilised/olekumootor/)
+- Loe rohkem: [Oleku-mootor]({{ '/et/juhendid/tehnilised/olekumootor/' | relative_url }})
 - Kõige esimene olek peale patsiendi registreerimist programmi, on "Kandidaat"
 - Selles olekus on avatud vaated "Patsiendi info", "Programm", "Tegevused/Ülesanded"
 5. Manuste plokis saab lisada olemasolevaid digitaalseid faile, näiteks märkamisleht, varasem heaoluplaan, jne.
-- Manuste kohta loe rohkem: [Manused](/docs/et/juhendid/kasutuslood/manused/)
+- Manuste kohta loe rohkem: [Manused](manused/)
 6. Meeskonna plokis saab Tervisejuht lisada ja muuta liikmeid
-- Loe rohkem: [Meeskond](/docs/et/juhendid/kasutuslood/meeskond/)
+- Loe rohkem: [Meeskond](meeskond/)
 6. Järgmiseks eesmärgiks on liikuda edasi järgmisesse "olekusse" ehk Tervisejuht peab võtma patsiendiga ühendust
 7. Selleks liigub Tervisejuht "Patsiendi info" vaatesse, et näha patsiendi (või lähedase) telefoninumbrit
-- Loe rohkem: [Patsient](/docs/et/juhendid/kasutuslood/patsient/)
+- Loe rohkem: [Patsient](patsient/)
 8. Patsiendiga ühenduse saamisel lepitakse kokku esmase nõustamise aeg. Selleks Lisab Tervisejuht "Protseduuri"
-- Loe rohkem: [Protseduurid](/docs/et/juhendid/kasutuslood/protseduur/)
+- Loe rohkem: [Protseduurid](protseduur/)
 9. Selleks, et tulevikus eesootav visiit meelest ei läheks, saab Tervisejuht endale luua "Ülesande"
-- Loe rohkem: [Tegevused/Ülesanded](/docs/et/juhendid/kasutuslood/tegevused/)
+- Loe rohkem: [Tegevused/Ülesanded](tegevused/)
 10. Esmase nõustamise ajal täidetakse patsiendiga koos InterRAI küsimustik. Kohandatud InterRAI sisaldab endas mitmeid küsimusi terviseandmete kohta. Nende sisestamiseks on vaja patsiendilt küsida järgmine **Nõusolek**
 - Selle nõusoleku lubamise või keeldumise peab Tervisejuht süsteemis manuaalselt lisama
-- Loe rohkem: [Nõusolekud](/docs/et/juhendid/tehnilised/nousolekud/)
+- Loe rohkem: [Nõusolekud]({{ '/et/juhendid/tehnilised/nousolekud/' | relative_url }})
 11. Kui nõustamise protseduur on valmis, saab selle sulgeda
-- Loe rohkem: [Protseduurid](/docs/et/juhendid/kasutuslood/protseduur/)
+- Loe rohkem: [Protseduurid](protseduur/)
 12. InterRAI tulemuse tõlgenduse ja kommentaari lisamise järgselt (ja kui on patsiendilt nõusolek terviseandmete sisestamiseks), saab liikuda edasi Heaoluplaani avamise juurde
-- Loe rohkem: [Küsimustikud](/docs/et/juhendid/kasutuslood/kysimustikud/)
-- Loe rohkem: [Heaoluplaan](/docs/et/juhendid/kasutuslood/heaoluplaan/)
+- Loe rohkem: [Küsimustikud](kysimustikud/)
+- Loe rohkem: [Heaoluplaan](heaoluplaan/)
 13. Erinevate nõusolekute ja protsessi sammude peale avanevad süsteemis kasutajale laiemad võimalused
 - Näiteks esmase nõustamise protseduuril ning patsiendi nõusolekul saab hakata sisestama kliinilisi andmeid, ravimeid, jms
 - Peale patsiendi hindamist ja küsimustiku tõlgendamist sobivaks, saab alustada Heaoluplaani loomisega
