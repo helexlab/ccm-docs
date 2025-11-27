@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Weblate tõlked"
-parent: Kasutusjuhendid
+parent: Haldusjuhendid
 nav_order: 1
 lang: et
-permalink: /et/kasutusjuhendid/weblate-tolked/
+permalink: /et/juhendid/haldus/weblate-tolked/
 ---
 # Weblate tõlked
 
