@@ -3,6 +3,7 @@ layout: default
 title: "Weblate tõlked"
 parent: Kasutusjuhendid
 nav_order: 1
+lang: et
 permalink: /et/kasutusjuhendid/weblate-tolked/
 ---
 # Weblate tõlked

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: "Programm"
-parent: kasutuslood
-nav_order: 4
-permalink: /et/kasutusjuhendid/kasutuslood/programm/
+parent: Kasutuslood
+nav_order: 2
+lang: et
+permalink: /et/juhendid/kasutuslood/programm/
 ---
 # Programmide/raviteekondade lisamine süsteemi
 

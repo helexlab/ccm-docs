@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Kasutusjuhendid"
-nav_order: 1
+title: "Juhendid"
+parent: Avaleht
+nav_order: 2
 has_children: true
-permalink: /et/kasutusjuhendid/
+lang: et
+permalink: /et/juhendid/
 ---
 
 # Hoolduskoordinatsiooni süsteemi kasutusjuhendid

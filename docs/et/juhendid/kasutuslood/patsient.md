@@ -1,9 +1,10 @@
 ---
 layout: default
 title: "Patsiendid"
-parent: kasutuslood
-nav_order: 3
-permalink: /et/kasutusjuhendid/kasutuslood/patsient/
+parent: Kasutuslood
+nav_order: 1
+lang: et
+permalink: /et/juhendid/kasutuslood/patsient/
 ---
 # Patsiendi/abivajaja lisamine süsteemi
 

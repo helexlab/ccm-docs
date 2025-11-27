@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "Tehnilised juhendid"
-parent: kasutusjuhendid
-nav_order: 5
+parent: Juhendid
+nav_order: 2
+lang: et
 has_children: true
-permalink: /et/kasutusjuhendid/tehniline/
+permalink: /et/juhendid/tehnilised/
 ---
 # Tehnilised juhendid
 

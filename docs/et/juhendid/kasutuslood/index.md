@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "Kasutajate lood"
-parent: Kasutusjuhendid
-nav_order: 2
+title: "Kasutuslood"
+parent: Juhendid
+nav_order: 1
+lang: et
 has_children: true
-permalink: /et/kasutusjuhendid/kasutuslood/
+permalink: /et/juhendid/kasutuslood/
 ---
 # Kasutuslood
 
