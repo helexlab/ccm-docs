@@ -43,6 +43,7 @@ Hoolduskoordinatsiooni projektis tegeleme kolme nõusolekuga
 ## Kolmas nõusolek
 1. Kolmas nõusolek sarnaneb esimesega selles osas, et see nõusolek tekitatakse süsteemi poolt automaatselt.
 2. Kolmas nõusolek käib Heaoluplaani loomise kohta. Selleks peab Tervisejuht patsiendile seletama, mis see on, mis see tähendab, jne. Selle nõusolekuga saab patsiend nõustuda/keelduda Heaoluplaani avamisel.
+- 736814000 - Consent given for observational study participation ehk Nõusolek Hoolduskoordinatsiooni teenusel osalemiseks
 3. Tervisejuhil on Heaoluplaani avamisel (registreerimisvormiga sarnaselt) andmeväli, kus linnutada nõusoleku olemasolul kastike.
 - Lisaks tekib võimalus nõusolek digitaalsel kujul üles laadida.
 ![Screenshot]({{ site.baseurl }}/assets/images/careplan_c.png)
