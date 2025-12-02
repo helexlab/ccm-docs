@@ -13,7 +13,7 @@
 
 <!-- >> IB: assign variable -->
 {% assign current_lang = page.lang | default: site.default_lang %}
-<p>{{ page.lang }} /{{ site.default_lang }}</p>
+<!--p>{{ page.lang }} /{{ site.default_lang }}</p-->
 {% assign top_level_pages = site.pages | where: "parent", null | where: "lang", current_lang | sort: "nav_order" %}
 <!-- << IB: end of assign variable -->
 
