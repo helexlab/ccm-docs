@@ -6,32 +6,40 @@ nav_order: 1
 lang: et
 permalink: /et/juhendid/kasutuslood/patsient/
 ---
-# Patsiendi/abivajaja lisamine süsteemi
+# Patsiendid
+**Patsient** on süsteemi administratiivne üksus (isik), kelle kohta talletatakse kontaktandmed, nimed, identifikaatorid ja muu demograafiline info.  
+Patsiendi lisamine ei tähenda veel programmis osalemist.  
+Patsiendist saab **abivajaja (Research Subject)** alles siis, kui ta registreeritakse mõnda programmi/raviteekonda.
+
+---
 
 ## Patsientide nimekiri
-1. Sisestatud patsiente näeb, kui vasakult ülevalt menüüst valida Haldus -> **Patsiendid**.
-2. Avaneb patsientide nimekiri tabeli kujul.
+1. Sisestatud patsientide nimekirja näeb menüüst (vasakult ülevalt) **Haldus -> Patsiendid**.
+2. Avaneb nimekiri tabeli kujul.
 ![Screenshot]({{ site.baseurl }}/assets/images/patsiendi_nimekiri.png)
-3. Patsiendid on kuvatud lehekülgede kaupa.
-4. Vaikimisi kuvatakse kuni 20 patsienti ühel kuval. Seda valikut saab muuta, vajutades tabeli allääres olevale numbriväljale.
+3. Tulemusi kuvatakse lehekülgede kaupa.
+4. Vaikimisi kuvatakse kuni 20 kirjet, seda saab muuta, vajutades tabeli allääres olevale numbriväljale.
 
-5. Tabeli tulbad:
-- **Nimi** - Hüperlingina patsiendi "Perekonnanimi, Eesnimi". Peale vajutades viiakse kasutaja patsiendi andmete muutmise kuvale
-- **Identifikaator** - Kõigepealt kuvatakse süsteemi kood ja siis identifikaatori sisestatud väärtus
-- **Sugu** - kui valitud, siis kuvatakse patsiendi sugu
+### Tabeli tulbad
+- **Nimi** - Hüperlink kujul "Perekonnanimi, Eesnimi". Peale vajutades avaneb patsiendi andmete muutmise kuva
+- **Identifikaator** - identifikaatori tüüp ja sisestatud väärtus
+- **Sugu** - valitud sugu, kui see määratakse
 
-6. Tabeli kohal paremal üleval nurgas on kuvatud filtri ikoon, millele vajutades avaneb filter võimalustega kitsendada otsingut nimekirjas:
-- **Nime järgi** - kas eesnimi, perenimi või mõlemad (komaga eraldatud)
+### Filtrid
+Tabeli kohal paremal üleval nurgas on kuvatud filtri ikoon, millele vajutades avaneb filter võimalustega kitsendada otsingut nimekirjas:
+- **Nime järgi** - sisestades eesnime, perenome või osa nimest
 - **Soo järgi**
-- **ID järgi**, kus väärtus peab olema sisestatud täispikkuses
-7. Filtreerimiseks tuleb sisestada otsitud väärtus ning vajutada nupule "Otsi" või klaviatuuril ENTER-klahvi
-8. Filtri üleval ääres on võimalus kõik filtri valikud korraga tühistada, vajutades nupule **"Tühista kõik"**.
-9. Vaikimisi on tabel sorteeritud sisestamise/muutmise järjekorras. Kõige varasemalt sisestatud patsiendid esimesena. Uued (muudetud) lisatakse tabeli lõppu.
+- **ID järgi**, identifikaator peab olema täispikkuses
+5. Filtri rakendamiseks tuleb vajutada nupule "Otsi" või ENTER.
+6. Kõik rakendatud filtrid saab korraga eemaldada, vajutades **"Tühista kõik"**.
+7. Vaikimisi on tabel sorteeritud loomise/muutmise aja järgi. Kõige varasemalt sisestatud kirjed esimesena. Uued lisatakse tabeli lõppu.
+
+---
 
 ## Uue patsiendi lisamine
 
 1. Uue patsiendi sisestamiseks süsteemi tuleb vajutada paremal tabeli kohal olevat **"+Lisa"** nuppu
-- See nupp on kuvatud kasutajatele, kellel on "practitioner" ehk kõige tavalisem "kasutaja" roll
+- Nupp on nähtav kasutajatele rolliga "practitioner" (kõige tavalisem "kasutaja")
 2. Avaneb Patsiendi andmete vaade erinevate andmeplokkidega:
 ![Screenshot]({{ site.baseurl }}/assets/images/patsiendi_andmed.png)
 - Esimene plokk on **ID** sisestamiseks. Mugavaks kasutuseks on süsteemi valikuteks seadistatud "Eesti isikukood" ja "Vene passi number"

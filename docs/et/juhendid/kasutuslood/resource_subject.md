@@ -8,7 +8,7 @@ permalink: /et/juhendid/kasutuslood/abivajajad/
 ---
 
 # Abivajajate nimekiri
-1. Suunatud/registreeritud abivajajaid näeb, kui vasakult ülevalt menüüst valida Hoolduskoordinatsioon -> **Abivajajad**.
+1. Suunatud/registreeritud abivajajaid (Research Subject) näeb, kui vasakult ülevalt menüüst valida Hoolduskoordinatsioon -> **Abivajajad**.
 2. Avaneb abivajajate nimekiri tabeli kujul.
 ![Screenshot]({{ site.baseurl }}/assets/images/abivajaja_nimekiri.png)
 3. Tulemused on kuvatud lehekülgede kaupa.

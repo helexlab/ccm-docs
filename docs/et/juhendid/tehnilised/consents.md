@@ -28,9 +28,9 @@ Hoolduskoordinatsiooni projektis tegeleme kolme nõusolekuga
 - 425691002 - Consent given for electronic record sharing ehk Nõusolek elektrooniliste andmete jagamiseks
 2. Abivajaja registreerimisel programmi kuvatakse seda nõusolekut esialgu ilma tulemuseta (sest sellega pole veel ei nõustutud ega keeldutud)
 3. Kui nõustamise/InterRAI käigus jõutakse vastavasse etappi, siis saab Tervisejuht märkida, kas nõusolek anti või mitte.
-- Selleks saab "?" Nõusolek elektrooniliste andmete jagamiseks kõrval vajutada ikoonile "..." ning valida vastav tulemus (Nõustu/Keeldu)
+- Selleks saab algseisu ehk "?" Nõusolek elektrooniliste andmete jagamiseks kõrval vajutada ikoonile "..." ning valida vastav tulemus (Nõustu/Keeldu)
 ![Screenshot]({{ site.baseurl }}/assets/images/consents.png)
-4. Olenevalt tulemusest muutub abivajaja olek
+4. Olenevalt tulemusest muutub abivajaja olek. Olek ei liigu edasi enne, kui tulemus on sisestatud.
 - Loe rohkem: [Oleku-mootor]({{ '/et/juhendid/tehnilised/olekumootor/' | relative_url }})
 5. See nõusolek annab õiguse sisestada (ja vaadata sisestatud) kliinilisi (tervise)andmeid
 - Ravimid
