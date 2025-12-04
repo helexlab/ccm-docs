@@ -2,7 +2,7 @@
 layout: default
 title: "Väljatrükk"
 parent: Kasutuslood
-nav_order: 4
+nav_order: 12
 lang: et
 permalink: /et/kasutuslood/printout
 ---
