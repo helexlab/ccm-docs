@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Tehnilised juhendid"
-parent: Juhendid
 nav_order: 2
 lang: et
 has_children: true
