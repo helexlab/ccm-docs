@@ -4,7 +4,7 @@ title: "Spetsialistid"
 parent: Kasutuslood
 nav_order: 4
 lang: et
-permalink: /et/kasutuslood/printout/
+permalink: /et/kasutuslood/printout
 ---
 # Väljatrükk
 1. Väljatrüki vaade (tab) tekib Heaoluplaanis.
