@@ -4,7 +4,7 @@ title: "Kasutajate administreerimine"
 parent: Haldusjuhendid
 nav_order: 3
 lang: et
-permalink: /et/juhendid/haldus/kasutajate-administreerimine/
+permalink: /et/haldus/kasutajate-administreerimine/
 ---
 
 # Kasutajate administreerimine
@@ -44,7 +44,7 @@ Keycloak admin:
 `https://testsso.helex.dev/admin/ccm/console`
 
 Testimisel kasutatakse **GovSSO Mock** identiteete.
-- Loe rohkem: [Õigused]({{ '/et/juhendid/haldus/oigused/' | relative_url }})
+- Loe rohkem: [Õigused]({{ '/et/haldus/oigused/' | relative_url }})
 
 ### Tootmiskeskkond
 Keycloak admin:  

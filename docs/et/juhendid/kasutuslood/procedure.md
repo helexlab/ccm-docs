@@ -4,7 +4,7 @@ title: "Protseduurid"
 parent: Kasutuslood
 nav_order: 6
 lang: et
-permalink: /et/juhendid/kasutuslood/protseduur/
+permalink: /et/kasutuslood/protseduur/
 ---
 # Protseduurid
 
@@ -65,6 +65,6 @@ permalink: /et/juhendid/kasutuslood/protseduur/
 4. Peale salvestamist kuvatakse protseduuri vastavas andmeplokis
 ![Screenshot]({{ site.baseurl }}/assets/images/procedure_block.png)
 5. Kui abivajajale on tarvis teha mitu erinevat nõustamist erinevate inimeste poolt, siis Tervisejuht saab lisada spetsialisti abivajaja meeskonda
-- Loe rohkem: [Meeskond]({{ '/et/juhendid/kasutuslood/meeskond/' | relative_url }})
+- Loe rohkem: [Meeskond]({{ '/et/kasutuslood/meeskond/' | relative_url }})
 - Loodud protseduure saab teostaja (ja tervisejuht) vajadusel muuta ja täiendada.
 6. Kui luuakse patsiendiga kontakti saamisel protseduur tulevikku esmaseks nõustamiseks, siis meeldetuletuseks saab Tervisejuht endale luua Tegevuse samale päevale kommentaariga, et "nõustamine"

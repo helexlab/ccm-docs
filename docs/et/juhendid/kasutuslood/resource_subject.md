@@ -4,7 +4,7 @@ title: "Abivajajad"
 parent: Kasutuslood
 nav_order: 5
 lang: et
-permalink: /et/juhendid/kasutuslood/abivajajad/
+permalink: /et/kasutuslood/abivajajad/
 ---
 
 # Abivajajate nimekiri
@@ -66,28 +66,28 @@ Kui kõik vajalikud väljad on täidetud, saab abivajaja registreerida, vajutade
 - Selle all on erinevad vaated/vahelehed
 3. Programmi vaates on erinevad plokid.
 4. Esimene plokk kirjeldab üldist informatsiooni valitud programmi kohta ning selle abivajaja praeguse kehtiva oleku kohta antud programmis
-- Loe rohkem: [Oleku-mootor]({{ '/et/juhendid/tehnilised/olekumootor/' | relative_url }})
+- Loe rohkem: [Oleku-mootor]({{ '/et/tehnilised/olekumootor/' | relative_url }})
 - Kõige esimene olek peale patsiendi registreerimist programmi, on "Kandidaat"
 - Selles olekus on avatud vaated "Patsiendi info", "Programm", "Tegevused/Ülesanded"
 5. Manuste plokis saab lisada olemasolevaid digitaalseid faile, näiteks märkamisleht, varasem heaoluplaan, jne.
-- Manuste kohta loe rohkem: [Manused]({{ '/et/juhendid/kasutuslood/manused/' | relative_url }})
+- Manuste kohta loe rohkem: [Manused]({{ '/et/kasutuslood/manused/' | relative_url }})
 6. Meeskonna plokis saab Tervisejuht lisada ja muuta liikmeid
-- Loe rohkem: [Meeskond]({{ '/et/juhendid/kasutuslood/meeskond/' | relative_url }})
+- Loe rohkem: [Meeskond]({{ '/et/kasutuslood/meeskond/' | relative_url }})
 6. Järgmiseks eesmärgiks on liikuda edasi järgmisesse "olekusse" ehk Tervisejuht peab võtma patsiendiga ühendust
 7. Selleks liigub Tervisejuht "Patsiendi info" vaatesse, et näha patsiendi (või lähedase) telefoninumbrit
-- Loe rohkem: [Patsient]({{ '/et/juhendid/kasutuslood/patsient/' | relative_url }})
+- Loe rohkem: [Patsient]({{ '/et/kasutuslood/patsient/' | relative_url }})
 8. Patsiendiga ühenduse saamisel lepitakse kokku esmase nõustamise aeg. Selleks Lisab Tervisejuht "Protseduuri"
-- Loe rohkem: [Protseduurid]({{ '/et/juhendid/kasutuslood/protseduur/' | relative_url }})
+- Loe rohkem: [Protseduurid]({{ '/et/kasutuslood/protseduur/' | relative_url }})
 9. Selleks, et tulevikus eesootav visiit meelest ei läheks, saab Tervisejuht endale luua "Ülesande"
-- Loe rohkem: [Tegevused/Ülesanded]({{ '/et/juhendid/kasutuslood/tegevused/' | relative_url }})
+- Loe rohkem: [Tegevused/Ülesanded]({{ '/et/kasutuslood/tegevused/' | relative_url }})
 10. Esmase nõustamise ajal täidetakse patsiendiga koos InterRAI küsimustik. Kohandatud InterRAI sisaldab endas mitmeid küsimusi terviseandmete kohta. Nende sisestamiseks on vaja patsiendilt küsida järgmine **Nõusolek**
 - Selle nõusoleku lubamise või keeldumise peab Tervisejuht süsteemis manuaalselt lisama
-- Loe rohkem: [Nõusolekud]({{ '/et/juhendid/tehnilised/nousolekud/' | relative_url }})
+- Loe rohkem: [Nõusolekud]({{ '/et/tehnilised/nousolekud/' | relative_url }})
 11. Kui nõustamise protseduur on valmis, saab selle sulgeda
-- Loe rohkem: [Protseduurid]({{ '/et/juhendid/kasutuslood/protseduur/' | relative_url }})
+- Loe rohkem: [Protseduurid]({{ '/et/kasutuslood/protseduur/' | relative_url }})
 12. InterRAI tulemuse tõlgenduse ja kommentaari lisamise järgselt (ja kui on patsiendilt nõusolek terviseandmete sisestamiseks), saab liikuda edasi Heaoluplaani avamise juurde
-- Loe rohkem: [Küsimustikud]({{ '/et/juhendid/kasutuslood/kysimustikud/' | relative_url }})
-- Loe rohkem: [Heaoluplaan]({{ '/et/juhendid/kasutuslood/heaoluplaan/' | relative_url }})
+- Loe rohkem: [Küsimustikud]({{ '/et/kasutuslood/kysimustikud/' | relative_url }})
+- Loe rohkem: [Heaoluplaan]({{ '/et/kasutuslood/heaoluplaan/' | relative_url }})
 13. Erinevate nõusolekute ja protsessi sammude peale avanevad süsteemis kasutajale laiemad võimalused
 - Näiteks esmase nõustamise protseduuril ning patsiendi nõusolekul saab hakata sisestama kliinilisi andmeid, ravimeid, jms
 - Peale patsiendi hindamist ja küsimustiku tõlgendamist sobivaks, saab alustada Heaoluplaani loomisega

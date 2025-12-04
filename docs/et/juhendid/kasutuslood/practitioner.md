@@ -4,7 +4,7 @@ title: "Spetsialistid"
 parent: Kasutuslood
 nav_order: 4
 lang: et
-permalink: /et/juhendid/kasutuslood/spetsialist/
+permalink: /et/kasutuslood/spetsialist/
 ---
 # Spetsialisti lisamine süsteemi
 
@@ -41,7 +41,7 @@ permalink: /et/juhendid/kasutuslood/spetsialist/
 -- **Sugu**
 -- **Sünnipäev** - (pp.kk.aaaa) võimalusega kirjutada või kalendrist valida
 - Kolmas plokk on **Rollide** kohta. Saab lisada mitu.
--- Tuleb kirjeldada **Orgaisatsioon/asutus** (loe rohkem: [Organisatsioonid]({{ '/et/juhendid/kasutuslood/asutus/' | relative_url }}))
+-- Tuleb kirjeldada **Orgaisatsioon/asutus** (loe rohkem: [Organisatsioonid]({{ '/et/kasutuslood/asutus/' | relative_url }}))
 -- **Roll** ehk millises rollis antud töötaja valitud organisatsioonis on
 -- **Aadress** - asutuse aadress
 -- **Suhtluskanalid** - telefon ja e-mail, läbi mille on võimalik spetsialistiga ühendust võtta. Kui lisatud, kuvatakse abivajajale väljatrükil

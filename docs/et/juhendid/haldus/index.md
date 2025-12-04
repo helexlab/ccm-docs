@@ -5,7 +5,7 @@ parent: Juhendid
 nav_order: 3
 lang: et
 has_children: true
-permalink: /et/juhendid/haldus/
+permalink: /et/haldus/
 ---
 # Haldusjuhendid
 

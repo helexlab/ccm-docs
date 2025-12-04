@@ -5,7 +5,7 @@ parent: Juhendid
 nav_order: 1
 lang: et
 has_children: true
-permalink: /et/juhendid/kasutuslood/
+permalink: /et/kasutuslood/
 ---
 # Kasutuslood
 

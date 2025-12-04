@@ -4,7 +4,7 @@ title: "Patsiendid"
 parent: Kasutuslood
 nav_order: 1
 lang: et
-permalink: /et/juhendid/kasutuslood/patsient/
+permalink: /et/kasutuslood/patsient/
 ---
 # Patsiendid
 **Patsient** on süsteemi administratiivne üksus (isik), kelle kohta talletatakse kontaktandmed, nimed, identifikaatorid ja muu demograafiline info.  

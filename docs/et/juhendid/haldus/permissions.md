@@ -4,7 +4,7 @@ title: "Õigused"
 parent: Haldusjuhendid
 nav_order: 2
 lang: et
-permalink: /et/juhendid/haldus/oigused/
+permalink: /et/haldus/oigused/
 ---
 
 # Funktsionaalsusd ja õiguste maatriks

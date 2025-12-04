@@ -4,7 +4,7 @@ title: "Manused"
 parent: Kasutuslood
 nav_order: 7
 lang: et
-permalink: /et/juhendid/kasutuslood/manused/
+permalink: /et/kasutuslood/manused/
 ---
 
 # Manused

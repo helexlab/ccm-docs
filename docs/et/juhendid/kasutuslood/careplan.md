@@ -4,7 +4,7 @@ title: "Heaoluplaan"
 parent: Kasutuslood
 nav_order: 11
 lang: et
-permalink: /et/juhendid/kasutuslood/heaoluplaan/
+permalink: /et/kasutuslood/heaoluplaan/
 ---
 
 # Heaoluplaan (Care Plan)
@@ -161,7 +161,7 @@ Need jäetakse väljatrükist välja (nii sai kokku lepitud).
 ## 7. Väljatrükk
 
 Plaanil on eraldi vaade **Väljatrükk**.
-Loe rohkem: [Väljatrükk]({{ '/et/juhendid/kasutuslood/printout/' | relative_url }})
+Loe rohkem: [Väljatrükk]({{ '/et/kasutuslood/printout/' | relative_url }})
 
 ---
 

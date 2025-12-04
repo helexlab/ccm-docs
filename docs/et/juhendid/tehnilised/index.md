@@ -5,7 +5,7 @@ parent: Juhendid
 nav_order: 2
 lang: et
 has_children: true
-permalink: /et/juhendid/tehnilised/
+permalink: /et/tehnilised/
 ---
 # Tehnilised juhendid
 

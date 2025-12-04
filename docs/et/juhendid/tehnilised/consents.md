@@ -4,7 +4,7 @@ title: "Nõusolekud"
 parent: Tehnilised juhendid
 nav_order: 2
 lang: et
-permalink: /et/juhendid/tehnilised/nousolekud/
+permalink: /et/tehnilised/nousolekud/
 ---
 # Nõusolekud
 

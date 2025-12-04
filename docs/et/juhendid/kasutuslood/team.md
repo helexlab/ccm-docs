@@ -4,16 +4,16 @@ title: "Meeskond"
 parent: Kasutuslood
 nav_order: 8
 lang: et
-permalink: /et/juhendid/kasutuslood/meeskond/
+permalink: /et/kasutuslood/meeskond/
 ---
 # Meeskond
 1. Meeskondi saab defineerida erinevate eesmärkidega kolmes erinevas kohas
 2. Meeskonnaliikme rolliga käib tihtipeale kaasas lisaõigusus süsteemi funktsionaalsusele
-- Loe rohkem [Õigused]({{ '/et/juhendid/haldus/oigused/' | relative_url }})
+- Loe rohkem [Õigused]({{ '/et/haldus/oigused/' | relative_url }})
 
 ## Programmi meeskond
 1. Programmi loomisel on võimalik juba eeldefineerida Osapooled
-- Loe rohkem [Programm]({{ '/et/juhendid/kasutuslood/programm/' | relative_url }})
+- Loe rohkem [Programm]({{ '/et/kasutuslood/programm/' | relative_url }})
 2. Uue programmi loomisel ja salvestamisel on kohustuslik lisada vähemalt üks Tervisejuht, sest läbi selle saab registreerida abivajajat otse vastutava Tervisejuhti töölauale.
 3. Lisaks Vastutavale tervisejuhile (võib lisada rohkem kui üks), saab programmi kirjeldamisel lisada Meeskonnaliikmeid.
 - See ei ole kohustuslik, aga lihtsustab hiljem meeskonna kirjeldamist Heaoluplaani juures.
@@ -33,3 +33,10 @@ permalink: /et/juhendid/kasutuslood/meeskond/
 - Katkestamisel kuvatakse uus modaal, kus saab määrata soovitud perioodi lõpu ning Salvestada.
 
 ## Heaoluplaani meeskond
+1. Heaoluplaani loomisel tuleb määrata vastutav tervisejuht. Vaikimisi on valitud sisselogitud kasutaja, sest temal on käimasolevalt tervisejuhi roll ning tema on ainuke, kes saab Heaoluplaani avada. Võimalus on seda muuta.
+2. Kui Heaoluplaan on loodud, saab "Meeskond" plokis defineerida ülejäänud meeskonnaliikmned ja nende õigused.
+3. Kiirvalikud on patsiendi ja tema lähedaste lisamiseks. Nendele jääb kehtima minimaalne õigus (vaatamine), kuigi käesoleva projekti raames nad süsteemi kasutama ei hakka.
+- Patsiendi ja lähedase lisamise eesmärgiks on tekitada võimalus luua tegevuskava tegevusi patsiendile ja tema lähedastele
+4. Süsteemi kasutajad ehk spetsialisti (practitioner) rolliga kasutajatele saab Tervisejuht määrata kas vaatamise (member) või muutmise õigused (collaborator).
+5. Tervisejuht võib Heaoluplaani meeskonda ja meeskonnaliikmete õigusi igal hetkel muuta.
+6. Spetsialist, kes on lisatud Heaoluplaani meeskonda, saab koheselt ligipääsu abivajaja kuvale ja aktiivsele Heaoluplaanile, kuhu ta kuulub.

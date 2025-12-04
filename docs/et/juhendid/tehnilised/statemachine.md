@@ -4,7 +4,7 @@ title: "Oleku-mootor"
 parent: Tehnilised juhendid
 nav_order: 1
 lang: et
-permalink: /et/juhendid/tehnilised/olekumootor/
+permalink: /et/tehnilised/olekumootor/
 ---
 
 # Oleku-mootor

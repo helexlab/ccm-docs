@@ -4,7 +4,7 @@ title: "Küsimustikud"
 parent: Kasutuslood
 nav_order: 10
 lang: et
-permalink: /et/juhendid/kasutuslood/kysimustikud/
+permalink: /et/kasutuslood/kysimustikud/
 ---
 # Küsimustikud
 
@@ -20,4 +20,4 @@ permalink: /et/juhendid/kasutuslood/kysimustikud/
 - Lisandub salvestamise kuupäev
 6. Vajadusel saab vajutada paremal ääres olevale pliiatsi ikoonile, mis avab sama vormi juba sisestatud tulemustega ning informatsiooni saab muuta ja uuesti salvestada.
 7. Olenevalt küsimustiku tulemusest (sobib/ei sobi), muutub abivajaja staatus
-- Loe rohkem: [Oleku-mootor]({{ '/et/juhendid/tehnilised/olekumootor/' | relative_url }})
+- Loe rohkem: [Oleku-mootor]({{ '/et/tehnilised/olekumootor/' | relative_url }})

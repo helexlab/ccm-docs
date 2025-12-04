@@ -4,7 +4,7 @@ title: "Tegevused"
 parent: Kasutuslood
 nav_order: 9
 lang: et
-permalink: /et/juhendid/kasutuslood/tegevused/
+permalink: /et/kasutuslood/tegevused/
 ---
 # Tegevused/Ülesanded
 
@@ -62,7 +62,7 @@ Kõigepealt kirjeldan tegevuse lisamist Tegevuste nimekirjast.
 6. Paremal pool on automaatselt valitud "kellega seotud" = Patsient. Käesolevas projektis teisi valikuid ei kasutata.
 - Saab valida patsiendi süsteemist, kellega tegevust siduda (ei pea olema registreeritud abivajaja)
 - Kui patsient puudub, saab tegevuse käigus patsiendi valimisel uue patsiendi süsteemi sisestada
-- Loe lähemalt: [Patsient]({{ '/et/juhendid/kasutuslood/patsient/' | relative_url }})
+- Loe lähemalt: [Patsient]({{ '/et/kasutuslood/patsient/' | relative_url }})
 - Saab tegevuse lisada ka Patsienti valimata.
 7. **Täitja** - igal tegevusel peab olema määratud vähemalt üks täitja. Kui on valitud täpselt 1, siis täitja=vastutaja.
 8. Kui on valitud rohkem kui üks Täitja, kuvatakse lisaks **Vastutaja** väli, kus vaikimisi määratakse vastutajaks esimesena sisestatud Täitja. Kasutaja saab valikut muuta ja valida ükskõik kelle täitjate seast. See kasutaja on justkui peamine vastutaja või ülesande "omanik", kes peab tegevuse läbi viima.

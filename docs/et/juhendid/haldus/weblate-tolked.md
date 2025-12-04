@@ -4,7 +4,7 @@ title: "Weblate tõlked"
 parent: Haldusjuhendid
 nav_order: 1
 lang: et
-permalink: /et/juhendid/haldus/weblate-tolked/
+permalink: /et/haldus/weblate-tolked/
 ---
 # Weblate tõlked
 

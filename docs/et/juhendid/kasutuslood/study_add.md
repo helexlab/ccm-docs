@@ -4,7 +4,7 @@ title: "Programm"
 parent: Kasutuslood
 nav_order: 2
 lang: et
-permalink: /et/juhendid/kasutuslood/programm/
+permalink: /et/kasutuslood/programm/
 ---
 # Programmide/raviteekondade lisamine süsteemi
 
