@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tehnilised juhendid"
-nav_order: 2
+nav_order: 4
 lang: et
 has_children: true
 permalink: /et/tehnilised/

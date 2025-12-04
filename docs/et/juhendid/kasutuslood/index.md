@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Kasutuslood"
-nav_order: 1
+nav_order: 2
 lang: et
 has_children: true
 permalink: /et/kasutuslood/

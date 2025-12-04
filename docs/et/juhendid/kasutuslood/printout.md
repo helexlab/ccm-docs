@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Spetsialistid"
+title: "Väljatrükk"
 parent: Kasutuslood
 nav_order: 4
 lang: et
