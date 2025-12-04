@@ -102,3 +102,22 @@ Kõigepealt kirjeldan tegevuse lisamist Tegevuste nimekirjast.
 -- Kui lisada Heaoluplaanile, siis nüüd näeb neid tegevusi mõlemas "vaates" ning väljatrükil kuvatakse ainult need tegevused, mis on Heaoluplaanile lisatud.
 12. Heaoluplaanile saab otse ka tegevusi lisada, avades esmalt aktiivse Heaoluplaani, liikudes Ülesannete vaatesse ning vajutades nupule "+Lisa".
 - Need tegevused peegeldatakse tagasi ka "Kõik tegevused" nimekirja ning Tegevuste üldnimekirja
+
+## Tegevuste korraga muutmine
+Kui vajutada tegevuste nimekirjas ühe kirje peale ja hoida all Ctrl (Windowsi arvuti) või Command (Mac) klahvi, saab mitme ülesandega korraga teha kahte võimalikku tegevust:
+
+### Tegevuste märkimine "Teostatuks"
+Valides üks kuni mitu kirjet, saab nad märkida korraga "Teostatud".
+Selline nupp ja võimalus tekib nimekirja kohale, kus näidatakse arvuliselt, mitu kirjet on valitud.
+![Screenshot]({{ site.baseurl }}/assets/images/bulk_done.png)
+Seda tegevust rakendatakse kõikide tegevuste/kirjete peal, väljaarvatud staatuses "katkestatud". Staatusest "Katkestatud" ei ole võimalik liikuda olekusse "Teostatud".
+Kui tegevus juba oli eelnevalt "teostatud", siis temaga ei juhtu midagi, olekut ei kirjutata uue ajatempliga üle.
+
+### Tegevuste tõstmine Heaoluplaanile
+Tegevusi saab sisestada tegevuste üldkuvalt, abivajaja "ülesannete" kuvalt ja heaoluplaani "ülesannete" kuvalt.
+Kui tegevused on sisestatud abivajaja vaatest, siis saab neid tegevusi hiljem Heaoluplaani olemasolul "tõsta üle".
+Selleks tuleb avada Heaoluplaan, liikuda "ülesanded" vaatesse ning tabeli kohalt valida "Kõik tegevused".
+![Screenshot]({{ site.baseurl }}/assets/images/all_tasks.png)
+Seejärel saab valida üks kuni mitu kirjet, mille peale tekib võimalus "Lisa Heaoluplaanile".
+Kui valitud sai vale kirje, tuleb Ctrl/Command all hoida ning uuesti valitud kirjele vajutada, siis see valik tühistatakse. Kõikide valitud kirjete korraga tühistamiseks saab vajutada "X".
+Peale lisamist saab liikuda vaatesse "Heaoluplaani tegevused". Nüüd on näha valitud kirjed mõlemas nimekirjas.
