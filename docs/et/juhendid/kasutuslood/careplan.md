@@ -161,7 +161,7 @@ Need jäetakse väljatrükist välja (nii sai kokku lepitud).
 ## 7. Väljatrükk
 
 Plaanil on eraldi vaade **Väljatrükk**.
-Loe rohkem: [Väljatrükk]({{ '/et/kasutuslood/printout' | relative_url }})
+Loe rohkem: [Väljatrükk]({{ '/et/kasutuslood/printout/' | relative_url }})
 
 ---
 

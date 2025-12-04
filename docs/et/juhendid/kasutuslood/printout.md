@@ -21,3 +21,8 @@ permalink: /et/kasutuslood/printout
 - **Juhised ja soovitused** kõik, mis on lisatud Heaoluplaani
 - **Tegevused** kõik aktiivsed tegevused, mis on lisatud Heaoluplaani
 - **Tugimeeskond** koos telefoninumbri ja tööajaga (kui lisatud)
+
+3. Väljad, mida saab lisada Heaoluplaanile, aga väljatrükil ei kuvata:
+- "Riskrühm ja raviteekond"
+- "Kokkuvõte hinnatud vajadustest"
+- "Olukorra kirjeldus"

@@ -28,6 +28,7 @@ CCM rakenduses kasutatakse järgmisi olekuid:
 | **Loobunud**              | withdrawn        | Patsient loobus teenusel osalemisest või võttis nõusoleku tagasi. |
 
 Rakenduses kuvatakse kogu olekute ajalugu kronoloogiliselt (Programi (abivajaja) vaates).
+![Screenshot]({{ site.baseurl }}/assets/images/states2.png)
 
 ---
 
