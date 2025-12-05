@@ -45,3 +45,180 @@ permalink: /et/kasutuslood/programm/
 - **Osapooled** - Selleks, et abivajaja sisestajal süsteemi oleks võimalik abivajaja koheselt suunata tervisejuhti töölauale, tuleks programmi sisestamisel ära defineerida vähemalt roll **vastutav tervisejuht**. Selleks on otsingu väli süsteemi spetsialistidest. Saab valida rohkem kui ühe (mõnel programmil võib olla mitu). Lisaks saab soovi korral defineerida baas-meeskonna välja **meeskonnaliige** kaudu. See ei ole selles sammus kohustuslik, aga muudab hilisemas sammus, heaoluplaani luues, meeskonnaliikmete valiku tervisejuhi jaoks lihtsamaks.
 
 3. Andmete salvestamiseks tuleb üleval paremal nurgas vajutada nuppu **"Salvesta"**.
+
+---
+
+# Tehniline spekk
+Nimekiri toetatud teadusuuringutest, programmidest või raviteekondadest.
+
+**Atribuudid**
+- Kood
+- Nimi
+- Staatus (kuvatakse väärtused *https://hl7.org/fhir/valueset-publication-status.html*)
+
+**Filtrid**
+- Kood - tekstisisestus
+- Nimi - tekstisisestus
+- Praktiseerija/spetsialist - avab otsingu overlay komponendi
+- Staatus - valik väärtustest *publication-status*
+
+## BE-teenus
+Andmebaasi tabel - `ccm.research_study`
+
+**Sisemine API** `/ccm/research-studies`
+- Kirjeldus - Loetelu toetatud teadusuuringutest
+- Meetodid: `GET`
+- Otsinguparameetrid:
+  - `code`
+  - `name`
+
+`/ccm/research-studies/$id`
+- Kirjeldus - uuringu detailvaade
+- Meetodid - `GET`
+
+**FHIR API**
+FHIR-fassaad vastavalt spetsifikatsioonile:  
+https://hl7.org/fhir/researchstudy.html  
+kasutamiseks teekonnal `/int/research-studies*`.
+
+### `/fhir/r5/ResearchStudy`
+- **Kirjeldus:** Loetelu toetatud teadusuuringutest
+- **Meetodid:** `GET`
+- **Otsinguparameetrid:**
+  - `identifier` – kaardistatud väljale **code**
+  - `name` – kaardistatud väljale **name** (ükskõik mis keeles)
+
+### `/fhir/r5/ResearchStudy/$id`
+- **Kirjeldus:** Uuringu detailvaade
+- **Meetodid:** `GET`
+
+---
+
+## Programm
+Programmi vaates hallatakse teadusuuringuid, registreid või akadeemilisi programme.
+
+**Atribuudid**
+**Üldandmed**
+- **Kood** - tekstisisestus. Peab olema unikaalne.
+- **Nimetus** – mitmekeelne sisestus; vaikimisi kuvatakse ja valitakse esimesena **eesti keel**.
+- **Kirjeldus** – tekstisisestus, kuhu saab lisada detailsema asukoha, tingimused või programmi parameetrid.
+- **Teenuse asukoht (Service location)** – automaatotsing väärtustikust  
+  https://dev.termx.org/resources/value-sets/ccm-service-location/summary
+- **Numbriseeria (Sequence)** – valikloend.  
+  Praegused valikud:
+  - *CCM default sequence* - eelvalitud ja peidetud UIst
+  - *Task number*
+  - *Care Plan identifier sequence*
+
+- **Staatus** – valikloend väärtustikust:  
+  https://dev.termx.org/resources/value-sets/publication-status/summary
+
+---
+
+### Osapooled (Parties)
+
+- **Programmi juht (Study chair)**
+  - **Isik (Party)** – valitakse overlay-komponendiga  
+    [Practitioner search](page:mdm-01-3-practitoner-search)
+
+- **Kaastöötaja (Collaborator)**
+  - **Isik (Party)** – sama otsingukomponent praktikute leidmiseks
+
+- **Lisa roll (Add role)** – valik väärtustikust  
+  https://dev.termx.org/resources/value-sets/research-study-party-role/versions/5.0.0/summary
+
+---
+
+**Tegevused**
+
+- Kui viimase rolli/isiku väli on täidetud, lisatakse automaatselt uus tühi *Collaborator* (ja *Study chair*) sisestusväli.
+- Nupp **Save** suunab komponendile  
+  [RS.01.2 Research studies](page:rs-01-1-research-studies)
+
+---
+
+### BE
+**Sisemised REST API teenused**
+`POST /cmm/research-studies`
+- **Party** – peab sisaldama absoluutset viidet praktikule (absolute reference).
+
+---
+
+**Andmebaas**
+
+- **Tabel:** `cmm.research_subject`
+- **Tabel:** `cmm.research_subject_party`
+  - Programmi juht → `role = study-chair`
+  - Kaastöötaja → `role = collaborator`
+  - `period.low` → määratakse *current timestamptz*
+  - Kui kasutaja klõpsab kustutusikoonil **X** → seada `period.high` väärtuseks *current timestamptz*
+
+**Näide (sisemine mudel)**
+
+```json
+{
+  "code": "123",
+  "name": {"et": "Hoolduskoordinatsiooni programm (Ahtme)"},
+  "location": [{
+    "system": "https://fhir.ee/CodeSystem/ads-adr-id",
+    "code": "2103553",
+    "display": "Harju maakond, Tallinn"
+  }],
+  "sequence": "cmm-number",
+  "status": "active",
+  "party": [{
+    "role": "study-chair",
+    "name": "Linn, Helen",
+    "reference": "https://your.fhir.server/fhir/Practitoner/456",
+    "period": {
+      "start": "2025-08-01"
+    }
+  }]
+}
+
+---
+
+**FHIR API**
+POST /fhir/r5/ResearchStudy
+Vastab spetsifikatsioonile: https://hl7.org/fhir/researchstudy.html
+- Teenuse asukoha puhul tuleb kasutada laiendit: https://fhir.ee/base/StructureDefinition/ee-ads-adr-id
+
+{
+  "resourceType": "ResearchStudy",
+  "status": "active",
+  "identifier": [
+    {
+      "system": "https://helex.org/sid/research-study",
+      "value": "123"
+    }
+  ],
+  "language": "et",
+  "title": "Hoolduskoordinatsiooni programm (Ahtme)",
+  "associatedParty": [{
+    "role": {
+      "coding": [{
+        "system": "http://hl7.org/fhir/research-study-party-role",
+        "code": "study-chair",
+        "display": "Study chair"
+      }]
+    },
+    "name": "Linn, Helen",
+    "party": {
+      "reference": "https://your.fhir.server/fhir/Practitoner/456",
+      "type": "Practitioner"
+    },
+    "period": {
+      "start": "2025-08-01"
+    }
+  }],
+  "extension": [
+    {
+      "url": "https://fhir.ee/base/StructureDefinition/ee-ads-adr-id",
+      "valueCoding": {
+        "system": "https://fhir.ee/CodeSystem/ads-adr-id",
+        "code": "2280361",
+        "display": "Tallinn"
+      }
+    }
+  ]
+}
